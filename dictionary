@@ -1,0 +1,22 @@
+#inisiasi dictionary
+my_dictionary = {
+    "nama": "julkifli",
+    "usia": 19,
+    "kota": "mataram"
+}
+#mencetak dictionary
+print(my_dictionary)
+#mengakses nilai dalam dictionary
+print("nilai yang diakses:",my_dictionary["nama"])
+#menambahkan atau memperbarui nilai dan key
+#memperbarui nilai
+my_dictionary["usia"] = 20
+#menambahkan key attau kunci
+my_dictionary["pekerjaan"] = "mahasiswa" 
+#mencetak dictionary setelah di perbarui dan ditambahkan
+print("dictionary setelah di perbarui:",my_dictionary)
+#menghapus nilai atau key di dalam dictionary
+#menghapus value dari key yang dipilih
+del my_dictionary["kota"] 
+#mencetak dictionary setelah nilai atau value di hapus
+print("dictionary setelah nilai di hapus:",my_dictionary)
